@@ -1,0 +1,16 @@
+﻿已經開始建置於 2017/1/7 下午 12:50:02。
+     1>節點 2 (Build 目標) 上的專案 "H:\Users\eric wei\Desktop\期末\期末\期末\期末.vcxproj"。
+     1>H:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>H:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         E:\visual c\VC\bin\CL.exe /c /I"H:\Users\eric wei\Desktop\期末\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\temp\debug\\" /Fd"..\..\temp\debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\source\main.c
+         main.c
+     1>h:\users\eric wei\desktop\期末\source\main.c(42): warning C4244: '函式' : 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+       Link:
+         E:\visual c\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\temp\debug\期末.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\temp\debug\期末.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\temp\debug\期末.lib" /MACHINE:X86 ..\..\temp\debug\main.obj
+         期末.vcxproj -> H:\Users\eric wei\Desktop\期末\期末\期末\..\..\temp\debug\期末.exe
+     1>專案 "H:\Users\eric wei\Desktop\期末\期末\期末\期末.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.22
